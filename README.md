@@ -50,11 +50,6 @@ seqtk seq -a LMJ.fastq > LMJ.fastq.fasta
 cat cc4533.fastq.fasta Clip185.fastq.fasta LMJ.fastq.fasta > converted_reads.fasta 
 ```
 
-## # Install visualization dependencies
-```
-pip install matplotlib seaborn umap-learn
-```
-
 ## Generate embeddings:
 ```
 python generate_chunk_embeddings.py  
