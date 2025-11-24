@@ -35,7 +35,7 @@ gdown 1ejNOMXdycorDzphLT6jnfGIPUxi6fO0g
 unzip DNABERT-S.zip   
 ```
 
-# 2 - Preprocess Data 
+# 2 - Preprocess the Data and Run the experiment
 
 ## Convert fastq files: 
 --> Skip this step for fasta files
