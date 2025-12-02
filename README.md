@@ -49,6 +49,14 @@ seqtk seq -a LMJ.fastq > LMJ.fastq.fasta
 ```
 cat cc4533.fastq.fasta Clip185.fastq.fasta LMJ.fastq.fasta > converted_reads.fasta 
 ```
+## Install Biopython
+```
+if using pip
+pip install biopython
+
+if using conda
+conda install -c conda-forge biopython
+```
 
 ## Generate embeddings:
 ```
