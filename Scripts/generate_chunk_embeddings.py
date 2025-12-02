@@ -77,14 +77,14 @@ class ChunkEmbeddingGenerator:
         return chunks, chunk_metadata
 
     def get_embedding_for_chunk(self, chunk):
-    """Generate DNABERT-S embedding for a single chunk"""
-    with torch.no_grad():
-        inputs = self.tokenizer(chunk, return_tensors='pt',
-                              truncation=True, max_length=1024)["input_ids"]
-        inputs = inputs.to(self.device)
-        hidden_states = self.model(inputs)[0]
-        embedding = torch.mean(hidden_states[0], dim=0).cpu().numpy()
-        return embedding
+        """Generate DNABERT-S embedding for a single chunk"""
+        with torch.no_grad():
+            inputs = self.tokenizer(chunk, return_tensors='pt',
+                                  truncation=True, max_length=1024)["input_ids"]
+            inputs = inputs.to(self.device)
+            hidden_states = self.model(inputs)[0]
+            embedding = torch.mean(hidden_states[0], dim=0).cpu().numpy()
+            return embedding
     
     def process_fasta_file(self, fasta_file):
         """Process ALL sequences in a FASTA file"""
