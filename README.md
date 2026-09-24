@@ -4,7 +4,7 @@
 > Aique Mvondo · Advisor: Dr. Ana Stanescu · University of West Georgia
 > Presented at **NCUR 2026**, UWG Scholars' Day, and GURC 2025
 
-📄 **[View the full NCUR 2026 research poster](NCUR_2026_Poster.pdf)**
+📄 **[View the full NCUR 2026 research poster](NCUR_2026_POSTER_PRESENTATION.pdf)**
 
 ![NCUR 2026 Poster](NCUR_2026_Poster.png)
 
